@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding-top: 60px;
+    background-color: lightgray;
+  }
+  
+  .sidebar {
+    margin-top: 60px; 
+  }
+  
+  .header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    width: 95%;
+    position: fixed; 
+    top: 0;
+    z-index: 999;
+    left: 70px;
+    background-color: whitesmoke;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .button-container {
+    margin-left: auto;
+    margin-right: 3%;
+  }
+  
+  .butonadd {
+    padding: 20px;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .butonadd:hover {
+    background-color: #ddd; /* Schimbarea culorii de fundal la hover */
+    transform: scale(1.05); /* Mărirea butonului la hover */
+  }
+  
